@@ -10,8 +10,12 @@ p {
     font-family: 'IBM Plex Serif', serif;
 }
 
-body a {
+footer a {
     color: #40d092;
+}
+
+.card a {
+    color: white;
 }
 
 .main-nav {
