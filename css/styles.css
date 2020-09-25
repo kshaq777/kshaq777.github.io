@@ -70,11 +70,12 @@ body .btn-primary {
 }
 
 .bio {
-    padding: 10rem 5rem;
+    padding: 2rem 0rem;
 }
 
 #sidebar {
     box-shadow: 0 .5rem 1rem rgba(64, 208, 146, .5)!important;
+    width: 100%;
 }
 
 .bio h3 {
@@ -195,6 +196,15 @@ footer p {
 }
 
 @media (min-width: 992px) {
+
+    .bio {
+        padding: 10rem 5rem;
+    }
+
+    #sidebar {
+        width: 80%;
+    }
+
     .portfolio {
         padding: 10rem 5rem;
     }
