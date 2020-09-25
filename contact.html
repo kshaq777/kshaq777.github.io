@@ -43,7 +43,7 @@
     </section>
     <section class="contact">
         <div class="container w-75 justify-content-center">
-          <form action="mailto:kshaq777@gmail.com" method="post" enctype="multipart/form-data">
+          <form action="https://formsubmit.co/kshaq777@gmail.com" method="POST">
             <div class="form-group">
               <label for="name">Name</label>
               <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name">
@@ -56,10 +56,19 @@
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" rows="5" placeholder="Enter text here"></textarea>
               </div>
-            <button type="submit" value="submit" class="btn btn-primary btn-lg">Submit</button>
+            <button id="alert-btn" type="submit" value="submit" class="btn btn-primary btn-lg">Submit</button>
           </form>
           </div>
     </section>
+    <script>
+        $("#alert-btn").on("click", function(){
+            $("body").prepend("<div id='alert-popup' class='alert alert-primary' role='alert'>A simple primary alert—check it out!</div>");
+        });
+
+        setTimeout(function(){
+            $("#alert-popup").alert("close");
+            }, 2000);
+    </script>
     <footer>
         <p>made by: <a href="https://github.com/kshaq777">kshaq777</a></p>
     </footer>
