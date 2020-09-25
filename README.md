@@ -4,4 +4,4 @@ Hello! Welcome to to my Github Portfolio's repository. Here, you will find the c
 
 The project was completed with HTML, Bootstrap, Material Icons, some custom CSS, and Form Submit (https://formsubmit.co/) to enable the contact form to send me email notifications upon submission. 
 
-More importantly, you can see the finished product my clicking the Github Pages link. 
+More importantly, you can see the finished product my clicking the Github Pages link: https://kshaq777.github.io/
